@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navber{
+    display: flex;
+    align-items: center;
+   
+}
+.navigation img{
+    height: 70px;
+    margin: 0px 7px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.nav-itam ul li{
+    display: flex;
+    list-style: none;
+}
+.nav-itam ul{
+    display: flex;
+}
+.nav-itam ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(16, 15, 22);
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 16px 10px;
+    padding: 10px 10px
+}
+.nav-itam ul li a:hover{
+  color: blue;
+  background-color: rgb(150, 148, 148);
+  border-radius: 20px;
+}
+#navber{
+    position: relative;
+}
+#navber::before{
+    content: "";
+    background-color: rgb(3, 3, 3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+
+.firsttext{
+    text-align: center;
+    color: rgb(47, 47, 49);
+}
+#center{
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+}
+#home::before{
+    content: "";
+    background: url('../hback.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#home{
+    /* position: relative; */
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 200px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+/* #home{
+    position:relative;
+} */
+.firsttext h2{
+ font-size: 3rem;
+}
+.firsttext p{
+    font-size: 1.2rem;
+}
+.btn{
+    color: blue;
+    margin: 20px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(114, 114, 114);
+}
+#service{
+    margin-top: 150px;
+}
+#service h2{
+    font-family: 'Calistoga', cursive;
+    font-size: 2.3rem;
+}
+.box-itam{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.box1{
+    width: 300px;
+    border: 2px solid red;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 33px;
+    border-radius: 10px;
+}
+.box1 img{
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.box1 p{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+.box2{
+    width: 300px;
+    border: 2px solid red;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 33px;
+    border-radius: 10px;
+}
+.box2 img{
+    height: 200px;
+    padding: 10px;
+}
+.box2 p{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.box3{
+    width: 300px;
+    border: 2px solid red;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 33px;
+    border-radius: 10px;
+}
+.box3 img{
+    padding: 10px;
+    height: 200px;
+}
+.box3 p{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+#clients{
+   margin-top: 40px;
+}
+.mainclients{
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+}
+#clients h2{
+    font-size: 2.3rem;
+}
+#clients img{
+    width: 100%;
+    height: auto;
+}
+#clientsI1 img{
+    width: 200px;
+    height: 110px;
+    position:absolute;
+    top: 10px; 
+}
+#clients-section{
+    /* height: 200px; */
+    position: relative;
+}
+#clients-section::before{
+    content: "";
+    position: absolute;
+    background: url('./client2.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients-section h2{
+    font-size: 2.3rem;
+    margin: 20px;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#clients-itam img{
+   height: 100px;
+   margin: 20px;
+   padding: 10px;
+} 
+
+#contect-section::before{
+    content: "";
+    position:absolute;
+    background: url('./contact-us.jpg') no-repeat center center/cover;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.contect{
+    padding: 11px 25%
+}
+
+#contect-section h2{
+    height: 73px;
+    padding: 18px;
+     font-size: 2.3rem;
+}
+.contect-itam{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    /* justify-content: center;
+    align-items: center; */
+}
+.contect-itam label{
+    color: rgb(17, 0, 255);
+    font-size: 20px;
+    padding: 3px;
+    
+}
+.contect-itam input, .contect-itam textarea{
+    
+    font-size: 0.9rem;
+    padding: 7px;
+    border-radius: 10px;
+}  
+#btn{
+    font-size: 1rem;
+    color: blue;
+    background-color: white;
+    margin: 20px 200px;
+    padding: 10px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#btn:hover, #btn:active{
+   background-color: rgb(197, 197, 197);
+}
+footer{
+    background: black;
+    color:white;
+    padding: 6px 20px;
+    text-align: center;
+}
